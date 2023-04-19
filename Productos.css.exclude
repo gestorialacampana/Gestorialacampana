@@ -1,0 +1,266 @@
+﻿ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.demo .item {
+  margin-bottom: 60px;
+}
+
+.content-slider li {
+  background-color: #ed3020;
+  text-align: center;
+  color: #FFF;
+}
+
+.content-slider h3 {
+  margin: 0;
+  padding: 70px 0;
+}
+
+.demo {
+  width: 100%;
+}
+
+.lSSlideOuter .lSPager.lSGallery {
+  margin-top: 30px !important;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  display: none;
+}
+
+.colores_lista label {
+  margin-right: 10px;
+}
+
+.colores_lista {
+  margin-top: 5px;
+}
+
+.select2 {
+  margin-top: 5px;
+  padding: 5px 10px;
+  height: 40px;
+  width: auto;
+}
+
+.ui-select span {
+  display: none;
+}
+
+.colores_lista input[type="radio"]:checked + label, .ui-radio-on {
+  border: 2px solid #05295c !important;
+}
+
+@media(min-width: 991px) {
+  .AlignRight .select2, .AlignRight span {
+    text-align: right;
+    float: right;
+  }
+}
+
+.input-number {
+  text-align: center;
+  padding: 5px 0;
+  height: 40px;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.input-group {
+  width: 150px;
+}
+
+.btn-number {
+  margin: 0 !important;
+  height: 40px;
+}
+
+.btn-plus {
+  border-left: none !important;
+}
+
+.btn-minus {
+  border-right: none !important;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+  background-color: #ccc !important;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.btn-default:focus, .btn-default.focus {
+  background-color: initial !important;
+  border-color: #ccc !important;
+}
+
+.SliderPopup .lSPager.lSGallery {
+  display: none !important;
+}
+
+
+.content-area {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.carousel-indicators .active {
+  height: 25px;
+  width: 25px;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  margin-right: 5px !important;
+  font-size: 50px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  margin-left: 5px !important;
+  font-size: 50px;
+}
+
+.content-area {
+  display: none;
+}
+
+.carousel.slide {
+  border: 1px solid #ccc;
+}
+
+
+.close_slider_producto.ui-link .fa {
+position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999999;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0px 2px 2px #000;
+}
+
+.carousel-inner .item img {
+  width: 100%;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+  margin-top: -30px !important;
+      text-shadow: 0px 2px 2px #000;
+}
+
+
+
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+  }
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+/* just for demo purpose */
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+
+
+
+.lblNodisponible {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.boxBuscadorProductos hr, .boxBuscadorProductos p {
+  max-width: 256px!important;
+}
+
+.boxBuscadorProductos hr
+{
+margin: 10px auto 0 auto;
+}
+
+ .boxBuscadorProductos p {
+   float: none;
+   margin-left: auto;
+      margin-right: auto;
+ }
+
+ 
+ @media(max-width: 991px){
+   .pagination{
+     margin-top: 50px!important;
+   }
+ }
+
+ @media(max-width: 500px){
+   .boxBuscadorProductos{
+     width: 100%!important;
+   }
+ }

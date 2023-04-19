@@ -1,0 +1,260 @@
+﻿.nav-pills {
+    border-bottom: 2px solid #ccc;
+}
+
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: transparent !important;
+    border-bottom: 2px solid #05295c;
+    border-radius: initial !important;
+    color: #05295c !important;
+  }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent !important;
+  border-bottom: 2px solid #05295c;
+  border-radius: initial !important;
+}
+
+.nav-pills > li {
+  float: left;
+  width: 30%;
+  margin-left: 20%;
+  text-align: center;
+  top: 2px;
+}
+
+#main_nav_alt.navbar-default .navbar-nav > li > a:hover, #main_nav_alt .navbar-default .navbar-nav > li > a:focus {
+  border: none !important;
+}
+
+.nav-pills li a {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.perfilTitles {
+  /*font-family: 'DancingScript' !important;*/
+  font-family: 'Comfortaa', cursive!important;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.spanTitle {
+  color: #777;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  display: block;
+}
+
+@media(max-width: 991px) {
+  .nopaddingMobile, .nopaddingMobile .col-md-4, .nopaddingMobile .col-md-6, .nopaddingMobile .col-md-12, .nopaddingMobile .col-md-8 {
+    padding: 0 !important;
+  }
+
+  .nav-pills > li {
+    margin-left: 0 !important;
+    width: 50%;
+  }
+
+  .optionTab {
+    font-size: 16px;
+  }
+
+  .nav-pills > li > a {
+    padding: 10px 0;
+  }
+}
+
+@media(min-width: 991px) {
+  .BorderAddDireccion {
+    border: 1px solid #05295c;
+    width: 40% !important;
+    margin-top: 30px;
+  }
+
+  .AddDireccion {
+    width: 20% !important;
+    text-align: center;
+    top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media(max-width: 500px) {
+  .BorderAddDireccion {
+    border: 1px solid #05295c;
+    width: 20% !important;
+    margin-top: 30px;
+  }
+
+  .AddDireccion {
+    width: 60% !important;
+    text-align: center;
+    top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .perfilTitles {
+    font-size: 32px;
+  }
+}
+
+@media(min-width: 500px) and (max-width: 991px) {
+  .BorderAddDireccion {
+    border: 1px solid #05295c;
+    width: 30% !important;
+    margin-top: 30px;
+  }
+
+  .AddDireccion {
+    width: 40% !important;
+    text-align: center;
+    top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.lnkDeleteDir {
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.btnGuardarCambios {
+  background-color: #05295c;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff !important;
+  padding: 15px 25px;
+  font-weight: 600;
+}
+
+
+.Mtop75 {
+  margin-top: 75px;
+}
+
+
+.AddDireccionesPopup {
+  max-width: 800px;
+  position: relative;
+  margin: 30px auto;
+}
+
+.BoxAddDireccionesPopup {
+  border: 1px solid #05295c;
+  padding: 20px;
+  margin: 0 auto;
+  background: white;
+}
+
+  .BoxAddDireccionesPopup .col-md-12, .BoxAddDireccionesPopup .col-md-4, .BoxAddDireccionesPopup .col-md-8 {
+    margin-top: 20px;
+  }
+
+  .BoxAddDireccionesPopup .spanTitle {
+    margin-bottom: 5px;
+  }
+
+.TextoAddDireccion {
+  font-size: 30px;
+  font-family: 'DancingScript' !important;
+}
+
+.btnGuardarDirecciones {
+  background-color: #05295c;
+  color: #fff !important;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+
+.lnkEditDir {
+  position: absolute;
+  right: 15px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+
+@media(max-width: 600px) {
+  .AddDireccionesPopup {
+    max-width: 400px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  #grd th, #grd .table-striped > tbody > tr:nth-of-type(odd) {
+    display: none;
+  }
+
+  #grd td {
+    text-align: right;
+    width: auto !important;
+  }
+
+  .no-more-tables table,
+  .no-more-tables thead,
+  .no-more-tables tbody,
+  .no-more-tables th,
+  .no-more-tables td,
+  .no-more-tables tr {
+    display: block;
+  }
+
+    .no-more-tables thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+  .no-more-tables tr {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+
+  .no-more-tables td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    white-space: normal;
+    text-align: left;
+    min-height: 47px;
+    /*min-height: 35px;*/
+    padding-top: 5px;
+    font-size: 14px;
+  }
+
+    .no-more-tables td:before {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      /*white-space: nowrap;*/
+      text-align: left;
+      font-weight: bold;
+    }
+
+    /*
+ Label the data
+ */
+    .no-more-tables td:before {
+      content: attr(data-title);
+    }
+}

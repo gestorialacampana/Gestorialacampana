@@ -1,0 +1,61 @@
+﻿
+.back_black {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+}
+
+.mbYTP_wrapper {
+  pointer-events: none;
+}
+
+#customElement {
+  width: 100%;
+  height: 600px;
+  background: rgba(81, 150, 191, 0.60);
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-size: cover;
+}
+
+#main_nav_alt.navbar-default{
+  border-bottom: none!important;
+}
+
+.ShipInfoBox p{
+  text-align: left;
+  font-size: 20px;
+  color: #05295c;
+}
+
+.ShipInfoBox{
+  margin-top: 40px;
+}
+
+
+
+.lead {
+    margin-bottom: 80px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+	
+    font-size: 18px;
+}
+ 
+
+
+.page_lead_content {
+    width: 80%;
+    margin: auto;
+}
+
+@media(max-width: 991px){
+  .ShipInfoBox p{
+  text-align: center!important;
+
+}
+}
